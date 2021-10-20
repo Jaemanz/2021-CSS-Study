@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Template - 2 Columns</title>
+    <style>
+        body{
+            background-image: url("Pics/vampire.jpg");
+        /*background-color: yellow;*/
+    }
+    .container{
+        color: yellow;
+        background-color: black;
+        margin: auto;
+        width: 85%;
+    }
+    #header{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 75px;
+        background-color: black;
+        font-family: GothicE;
+    }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+            /*border-right: 1px solid #bbb;*/
+            width: 20%;
+        }
+        li a{
+            display: block;
+            color: yellow;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active){
+            background-color: #111;
+        }
+        .active{
+            background-color: darkred;
+        }
+        /*.text{
+            font-family: GreekC;
+        }*/
+        .Content{
+            float: left;
+            background-color: aqua;
+            width: 60%;
+            height: 500px;
+        }
+        .Siderbar{
+            float: left;
+            background-color: azure;
+            width: 40%;
+            height: 500px;
+        }
+        .footer{
+            background-color: yellow;
+            width: 100%;
+        }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div id="header">
+        CARDI'S VAMP FAN PAGE
+        </div>
+    </div>
+    <div class="row">
+    <ul>
+        <li><a href="#" class="active">DRACULA'S HOME</a></li>
+        <li><a href="#">FAKE FANGS AND BLOOD</a></li>
+        <li><a href="#">WHOLE LOTTA SKIPS</a></li>
+        <li><a href="#">Cardi's Vamp Hut</a></li>
+        <li><a href="#">VAMP KING About Page</a></li>
+    </ul>
+    </div>
+    <div class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</div>
+</div>
+
+</body>
+</html>
