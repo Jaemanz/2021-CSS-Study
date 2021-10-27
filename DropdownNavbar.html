@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NAVBAR STUFF!!</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            background-image: url("Pics/vampire.jpg");*/
+        }
+       .navbar{
+           overflow: hidden;
+           background-color: #111111;
+       }
+       .navbar a{
+           float: left;
+           font-size: 17px;
+           color: yellow;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+       }
+       .navbar a:hover, .dropdown:hover .droppButton{
+           background-color: gray;
+       }
+       .dropdown {
+           float: left;
+           overflow: hidden;
+       }
+       .dropdown .droppButton{
+           font-size: 17px;
+           border: none;
+           outline: none;
+           color: white;
+           padding: 14px 16px;
+           background-color: inherit;
+           margin: 0px;
+           font-family: inherit;
+       }
+       .dropdownContent a{
+           float: none;
+           padding: 12px 16px;
+           text-decoration: none;
+           display: block;
+           text-align: left;
+       }
+       .dropdownContent{
+           display: none;
+           position: absolute;
+           min-width: 160px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 1;
+       }
+       .dropdown:hover .dropdownContent{
+           display: block;
+       }
+       .dropdownContent a:hover{
+           background-color: black;
+       }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="#" class="active">DRACULA'S HOME</a>
+    <a href="#">FAKE FANGS AND BLOOD</a>
+    <div class="dropdown">
+        <button class="droppButton">WHOLE LOTTA SKIPS
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdownContent">
+            <a href="#">F33L LIKE DYING(BEST SONG)</a>
+            <a href="#">SKY</a>
+            <a href="#">M3TAMORPHASIS (feat. KID CUDI)</a>
+            <a href="#">STOP BREATHING</a>
+            <a href="#">Teen X (feat. Future) BEST SONG NA</a>
+            <a href="#">Vamp Anthem</a>
+            <a href="#">ALOT OF TRASH</a>
+        </div>
+    </div>
+    <a href="#">Cardi's Vamp Hut</a>
+    <a href="#">VAMP KING About Page</a>
+</div>
+<!--<img id="Goat" src="Pics/vampire.jpg" />-->
+<div class="container">
+
+</div>
+</body>
+</html>
