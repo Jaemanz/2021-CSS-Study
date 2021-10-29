@@ -63,7 +63,7 @@
             height: 500px;
         }
         .Sidebar{
-            float: right;
+            float: left;
         }
         #footer{
             background-color: black;
@@ -74,6 +74,41 @@
         }
         div#footer a{
             color: yellow;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropdown .dropButton{
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: yellow;
+            padding: 14px 16px;
+            background-color: inherit;
+            margin: 0px;
+            font-family: inherit;
+        }
+        .dropdownContent a{
+            float: none;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdownContent{
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdownContent{
+            display: block;
+            background-color: #111111;
+        }
+        .dropdownContent a:hover{
+            background-color: red;
         }
 
 </style>
@@ -90,7 +125,22 @@
     <ul>
         <li><a href="#" class="active">DRACULA'S HOME</a></li>
         <li><a href="#">FAKE FANGS AND BLOOD</a></li>
-        <li><a href="#">WHOLE LOTTA SKIPS</a></li>
+        <li>
+            <div class="dropdown">
+                <button class="droppButton">WHOLE LOTTA SKIPS
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdownContent">
+                    <a href="#">F33L LIKE DYING(BEST SONG)</a>
+                    <a href="#">SKY</a>
+                    <a href="#">M3TAMORPHASIS (feat. KID CUDI)</a>
+                    <a href="#">STOP BREATHING</a>
+                    <a href="#">Teen X (feat. Future) BEST SONG NA</a>
+                    <a href="#">Vamp Anthem</a>
+                    <a href="#">ALOT OF TRASH</a>
+                </div>
+            </div>
+        </li>
         <li><a href="#">Cardi's Vamp Hut</a></li>
         <li><a href="#">VAMP KING About Page</a></li>
     </ul>
