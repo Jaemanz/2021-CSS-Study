@@ -1,0 +1,115 @@
+body{
+    background-image: url("Pics/cheifssuck.jpg");
+    background-size: cover;
+    /*background-color: yellow;*/
+}
+.container{
+    color: White;
+    background-color: #013369;
+    margin: auto;
+    width: 85%;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 75px;
+    background-color: #013369;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+li{
+    float: left;
+    /*border-right: 1px solid #bbb;*/
+    width: 20%;
+}
+li a{
+    display: block;
+    color: #D50A0A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+/*.active{
+    background-color: #D50A0A;
+}*/
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*.text{
+    font-family: GreekC;
+}*/
+#content{
+    float: left;
+    background-color: #013369;
+    width: 50%;
+    height: 500px;
+}
+.LSidebar{
+    float: left;
+    width: 25%;
+}
+.RSidebar{
+
+}
+#footer{
+    background-color: #013369;
+    width: 85%;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+div#footer a{
+    color: white;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropButton{
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #D50A0A;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0px;
+    font-family: inherit;
+}
+.dropdownContent a{
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    background-color: black;
+}
+.dropButton:hover{
+    background-color: #111;
+}
+.dropdownContent{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdownContent{
+    display: block;
+}
+.dropdownContent a:hover{
+    background-color: #111;
+}
