@@ -27,7 +27,7 @@ ul{
 li{
     float: left;
     /*border-right: 1px solid #bbb;*/
-    width: 20%;
+    width: 25%;
 }
 li a{
     display: block;
@@ -55,13 +55,13 @@ li a:hover{
     background-color: #013369;
     width: 50%;
     height: 500px;
+    text-
 }
 .LSidebar{
     float: left;
-    width: 25%;
-}
-.RSidebar{
-
+    width: 35%;
+    text-align: center;
+    margin-top: 100px;
 }
 #footer{
     background-color: #013369;
@@ -112,4 +112,14 @@ div#footer a{
 }
 .dropdownContent a:hover{
     background-color: #111;
+}
+div.status{
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    margin-bottom: 25px;
+}
+div.container{
+    text-align: center;
+    padding: 10px 20px;
 }
