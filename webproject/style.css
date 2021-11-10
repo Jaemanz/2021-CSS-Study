@@ -51,15 +51,12 @@ li a:hover{
     font-family: GreekC;
 }*/
 #content{
-    float: left;
     background-color: #013369;
     width: 50%;
     height: 500px;
-    text-
 }
 .LSidebar{
     float: left;
-    width: 35%;
     text-align: center;
     margin-top: 50px;
     border: #111111;
